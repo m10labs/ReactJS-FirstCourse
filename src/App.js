@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       <Content />
       <div>haseb</div>
+      <div>haseeb2</div>
     </>
   );
 }
