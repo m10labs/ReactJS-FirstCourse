@@ -15,6 +15,7 @@ function Profile() {
       <h2>This is a profile component</h2>
       <p onClick={ChangeName}>name: {name}</p>
       <p>age: {age}</p>
+      <p>qualifation</p>
     </div>
   );
 }

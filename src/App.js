@@ -10,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <Content />
+      <div>haseb</div>
     </>
   );
 }
