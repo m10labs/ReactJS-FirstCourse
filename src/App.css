@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: 2px solid red;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.subtext-wrapper {
+  border: 2px solid red;
+}
+
+.Navbar-wrapper {
+  margin: 10px;
+  border: 2px solid yellow;
+}
+
+.Content-Wrapper {
+  margin: 10px;
+  border: 2px solid blue;
+}
+
+.Profile-wrapper {
+  border: 2px solid green;
+  margin: 10px;
 }
