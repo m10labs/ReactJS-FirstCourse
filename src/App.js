@@ -4,11 +4,10 @@ import SubText from "./SubText";
 import Navbar from "./Navbar.js";
 import Content from "./Content.js";
 
-function App() {
-  const reactName = "react js welcome";
+function App(props) {
   return (
     <>
-      <Navbar />
+      <Navbar tabs={["home", "about us", "contact us"]} />
       <Content />
     </>
   );
