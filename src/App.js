@@ -9,6 +9,8 @@ function App(props) {
     <>
       <Navbar tabs={["home", "about us", "contact us"]} />
       <Content />
+      <div>haseb</div>
+      <div>haseeb2</div>
     </>
   );
 }
