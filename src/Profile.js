@@ -23,12 +23,10 @@ function Profile(props) {
 
   return (
     <div className="Profile-wrapper">
-      <h2>This is a profile component</h2>
       <h3>props name: {props.name}</h3>
       <h3>props age: {props.age}</h3>
       {isImageShown && <img src={ProfileDP} alt="my profile picture" />}
       <p onClick={ChangeName}>name: {name}</p>
-      <p>age: {age}</p>
       <button onClick={ShowProfile}>{isImageShown ? "Hide" : "Show"} Profile</button>
     </div>
   );

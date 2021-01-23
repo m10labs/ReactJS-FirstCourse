@@ -7,7 +7,7 @@ import Content from "./Content.js";
 function App(props) {
   return (
     <>
-      <Navbar tabs={["home", "about us", "contact us"]} />
+      <Navbar tabs={["home", "about us", "contact us", "jobs"]} />
       <Content />
       <div>haseb</div>
       <div>haseeb2</div>
